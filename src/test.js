@@ -3,7 +3,7 @@ let n = 1;
 demo.innerText = string.substr(0, n)
 demo2.innerHTML = string.substr(0, n)
 
-let time = 0;
+let time = 200;
 let run = () => {
     n += 1
     if (n > string.length) {

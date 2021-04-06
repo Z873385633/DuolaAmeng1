@@ -18,8 +18,9 @@ const string = `
      background:red;
      z-index: 5;
  }
- @media(min-width:500px){
+ @media(min-width:375px){
     .nose{
+        position:absolute;
         top:190px;
     }
  }
@@ -36,7 +37,7 @@ const string = `
      z-index:5;
  }
 
- @media(min-width:500px){
+ @media(min-width:375px){
     .eye{
         top:160px;
     }
@@ -110,8 +111,14 @@ const string = `
      height:80px;
      left:50%;
      margin-left:-4px;
-     bottom:70px;
+     bottom:75px;
      background:black;
+ }
+ @media(min-width:375px){
+    .up{
+     position:absolute;
+     bottom:115px;
+    }
  }
  .Lian{
     display:block;
@@ -125,7 +132,7 @@ const string = `
     background:white;
     z-index:-1;
  }
- @media(min-width:500px){
+ @media(min-width:375px){
     .Lian{
         top:160px;
     }
@@ -178,7 +185,7 @@ const string = `
     border-radius:6px;
     position:absolute;
     transform:rotate(30deg);
-    bottom:170px;
+    bottom:165px;
     background:black;
 }
 .x2{
@@ -189,7 +196,7 @@ const string = `
     border-radius:6px;
     position:absolute;
     transform:rotate(20deg);
-    bottom:145px;
+    bottom:135px;
     background:black;
 }
 .x3{
@@ -211,7 +218,7 @@ const string = `
     border-radius:6px;
     position:absolute;
     transform:rotate(-30deg);
-    bottom:170px;
+    bottom:165px;
     background:black;
 }
 .x5{
@@ -222,7 +229,7 @@ const string = `
     border-radius:6px;
     position:absolute;
     transform:rotate(-20deg);
-    bottom:145px;
+    bottom:135px;
     background:black;
 }
 .x6{
@@ -236,30 +243,36 @@ const string = `
     bottom:115px;
     background:black;
 }
-@media(min-width:500px){
+@media(min-width:375px){
     .x1{
         left:50%;
         margin-left:-180px;
+        bottom:220px;
     }
     .x2{
         left:50%;
         margin-left:-180px;
+        bottom:195px;
     }
     .x3{
         left:50%;
         margin-left:-180px;
+        bottom:165px;
     }
     .x4{
         left:50%;
         margin-left:100px;
+        bottom:220px;
     }
     .x5{
         left:50%;
         margin-left:100px;
+        bottom:195px;
     }
     .x6{
         left:50%;
         margin-left:100px;
+        bottom:165px;
     }
  }
 `
